@@ -1,6 +1,6 @@
 # ESP8266 Connected Weather Station and Binary Number Challenge
 
-An academic connected-object project built around an ESP8266. It combines a BME280 weather sensor, an OLED display, a local web server, physical controls, LEDs, and a buzzer. A number-guessing game provides an additional interactive mode.
+An academic connected-object project built around an ESP8266. It combines a BME280 weather sensor, an OLED display, a local web server, physical controls, LEDs, and a buzzer. An interactive binary-reading challenge provides a second mode: the player reads the value shown by the three LEDs, selects the matching decimal number on the OLED, and confirms the answer with the button.
 
 ## Features
 
@@ -44,9 +44,9 @@ Install these libraries through the Arduino Library Manager: `NTPClient`, `PinBu
 
 ## Button controls
 
-- **Single click:** refresh the sensor display, or change the current guess while playing.
+- **Single click:** refresh the sensor display, or cycle through the decimal answer choices while playing.
 - **Double click:** show or hide the device's local IP address when outside the game.
-- **Long press:** start a game or submit the current guess.
+- **Long press:** start a game or confirm the selected answer.
 
 ## Project context
 
