@@ -1,0 +1,12 @@
+# Local Wi-Fi credentials
+firmware/ConnectedWeatherStation/MyWifi.h
+
+# Arduino IDE/build outputs
+firmware/ConnectedWeatherStation/build/
+firmware/ConnectedWeatherStation/*.bin
+firmware/ConnectedWeatherStation/*.elf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
