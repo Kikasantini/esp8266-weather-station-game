@@ -1,4 +1,4 @@
-# ESP8266 Connected Weather Station and Number Guessing Game
+# ESP8266 Connected Weather Station and Binary Number Challenge
 
 An academic connected-object project built around an ESP8266. It combines a BME280 weather sensor, an OLED display, a local web server, physical controls, LEDs, and a buzzer. A number-guessing game provides an additional interactive mode.
 
@@ -6,8 +6,8 @@ An academic connected-object project built around an ESP8266. It combines a BME2
 
 - Displays temperature, pressure, estimated altitude, humidity, and network time on an SSD1306 OLED.
 - Serves local pages for the sensor readings, game score, and game status.
-- Uses three LEDs to show a randomly selected number from 1 to 7 in binary.
-- Lets the player cycle through guesses with a single button click and confirm with a long press.
+- Uses three LEDs to show a randomly selected value from 1 to 7 in binary.
+- Lets the player read the binary value on the LEDs, cycle through decimal choices from 1 to 7 on the OLED with a single click, and submit a choice with a long press.
 - Increases the score after a correct answer; a wrong answer ends the round and sounds the buzzer.
 
 ## Hardware
@@ -54,6 +54,7 @@ Created for the Connected Objects Programming course at Institut Grasset in 2022
 
 ## Project media
 
+- `project-demo.mp4` — project demonstration video
 - `media/hardware-prototype.jpeg`
 - `media/web-interface-home.jpg`
 - `media/wiring-diagram.png`
