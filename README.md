@@ -51,3 +51,10 @@ Install these libraries through the Arduino Library Manager: `NTPClient`, `PinBu
 ## Project context
 
 Created for the Connected Objects Programming course at Institut Grasset in 2022. The uploaded course handout is not included in this repository; the README summarizes the project and its setup. The project is an academic prototype and expects the hardware and libraries listed above.
+
+## Project media
+
+- `media/hardware-prototype.jpeg`
+- `media/web-interface-home.jpg`
+- `media/wiring-diagram.png`
+- `media/breadboard-layout.png`
