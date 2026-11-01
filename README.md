@@ -9,7 +9,6 @@ An academic connected-object project built around an ESP8266. It combines a BME2
 - Uses three LEDs to show a randomly selected number from 1 to 7 in binary.
 - Lets the player cycle through guesses with a single button click and confirm with a long press.
 - Increases the score after a correct answer; a wrong answer ends the round and sounds the buzzer.
-- Includes the original project demonstration video as `project-demo.mp4`.
 
 ## Hardware
 
